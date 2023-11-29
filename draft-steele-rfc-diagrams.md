@@ -80,6 +80,60 @@ sequenceDiagram
     Alice-)John: See you later!
 ~~~
 
+# Mscgen
+
+~~~mscgen
+# Fictional client-server protocol
+msc {
+ arcgradient = 8;
+
+ a [label="Client"],b [label="Server"];
+
+ a=>b [label="data1"];
+ a-xb [label="data2"];
+ a=>b [label="data3"];
+ a<=b [label="ack1, nack2"];
+ a=>b [label="data2", arcskip="1"];
+ |||;
+ a<=b [label="ack3"];
+ |||;
+}
+~~~
+
+# Plantuml
+
+~~~plantuml
+@startuml
+skinparam roundCorner 15
+actor actor
+agent agent
+artifact artifact
+boundary boundary
+card card
+circle circle
+cloud cloud
+collections collections
+component component
+control control
+database database
+entity entity
+file file
+folder folder
+frame frame
+hexagon hexagon
+interface interface
+label label
+node node
+package package
+person person
+queue queue
+rectangle rectangle
+stack stack
+storage storage
+usecase usecase
+@enduml
+~~~
+
 # Security Considerations
 
 TODO Security
