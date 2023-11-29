@@ -50,7 +50,11 @@ This draft is for testing the diagram options that come from the I-D tool.
 
 # AASVG
 
-does not work.
+~~~aasvg
+                 .----------.
+                |  Artifact  |
+                 '----+-----'
+~~~
 
 # Security Considerations
 
