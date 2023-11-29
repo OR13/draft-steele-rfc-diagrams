@@ -20,7 +20,7 @@
 #
 ###
 title: "Diagrams"
-abbrev: "D"
+abbrev: "Diagrams"
 category: info
 
 docname: draft-steele-rfc-diagrams-latest
