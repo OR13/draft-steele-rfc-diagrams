@@ -56,8 +56,6 @@ This draft is for testing the diagram options that come from the I-D tool.
                  '----+-----'
 ~~~
 
-
-
 # Mscgen
 
 ~~~mscgen
@@ -76,6 +74,22 @@ msc {
  a<=b [label="ack3"];
  |||;
 }
+~~~
+
+# Plantuml
+
+~~~plantuml
+@startuml
+node node1
+node node2
+node node3
+node node4
+node node5
+node1 -- node2 : label1
+node1 .. node3 : label2
+node1 ~~ node4 : label3
+node1 == node5
+@enduml
 ~~~
 
 # Security Considerations
