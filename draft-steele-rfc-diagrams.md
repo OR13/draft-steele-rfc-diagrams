@@ -19,11 +19,11 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "Diagrams"
+abbrev: "D"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-steele-rfc-diagrams-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
@@ -33,8 +33,6 @@ area: AREA
 workgroup: WG Working Group
 keyword:
  - next generation
- - unicorn
- - sparkling distributed ledger
 venue:
   group: WG
   type: Working Group
