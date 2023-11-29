@@ -56,6 +56,30 @@ This draft is for testing the diagram options that come from the I-D tool.
                  '----+-----'
 ~~~
 
+# Mermaid
+
+~~~mermaid
+erDiagram
+    Issuer ||--o{ Holder : "issues credential"
+    Holder ||--o{ Verifier :  "proves credential"
+    Verifier ||--o{ Issuer : "checks status"
+~~~
+
+
+~~~mermaid
+flowchart
+  alice
+  bob
+  alice --> bob
+~~~
+
+~~~mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+~~~
+
 # Security Considerations
 
 TODO Security
