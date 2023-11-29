@@ -84,7 +84,9 @@ Table of Contents
 
 3.  AASVG
 
-   does not work.
+                    .----------.
+                   |  Artifact  |
+                    '----+-----'
 
 4.  Security Considerations
 
