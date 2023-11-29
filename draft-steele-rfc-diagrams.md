@@ -41,13 +41,41 @@ TODO Abstract
 
 # Introduction
 
-TODO Introduction
+This draft is for testing the diagram options that come from the I-D tool.
 
 
 # Conventions and Definitions
 
 {::boilerplate bcp14-tagged}
 
+# AASVG
+
+~~~ aasvg
++-------------------+                           ^                      .---.
+|    A Box          |__.--.__    __.-->         ║      .-.             |   |
+|                   |        '--'               v     | * |<---        |   |
++-------------------+                                  '-'             |   |
+                       Round                                       *---(-. |
+  .-----------------.  .-------.    .----------.         .-------.     | | |
+ |   Mixed Rounded  | |         |  / Diagonals  \        |   |   |     | | |
+ | & Square Corners |  '--. .--'  /              \       |---+---|     '-)-'       .--------.
+ '--+------------+-'  .--. |     '-------+--------'      |   |   |       |        / Search /
+    |            |   |    | '---.        |               '-------'       |       '-+------'
+    |<==========>|   |    |      |       v                Interior                 |     ^
+    '           <---'      '----'   .-----------.              ---.     .---       v     |
+ .------------------.  Diag line    | .-------. +---.              \   /           .     |
+ |   if (a > b)     +---.      .--->| |       | |    | Curved line  \ /           / \    |
+ |   obj->fcn()     |    \    /     | '-------' |<--'                +           /   \   |
+ '------------------'     '--'      '--+--------'      .--. .--.     |  .-.     +Done?+-'
+    .---+-----.                        |   ^           |\ | | /|  .--+ |   |     \   /
+    |   |     | Join        \|/        |   | Curved    | \| |/ | |    \    |      \ /
+    |   |     +---->  ◌    --◍--        '-'  Vertical  '--' '--'  '--  '--'        +  .---.
+ <--+---+-----'       |     /|\                                                    |  | 3 |
+                      v                             not:line    'quotes'        .-'   '---'
+  .-.             .---+--------.            /            A || B   *bold*       |        ^
+ |   |           |   Not a dot  |      <---+---<--    A dash--is not a line    v        |
+  '-'             '---------+--'          /           Nor/is this.            ---
+~~~
 
 # Security Considerations
 
