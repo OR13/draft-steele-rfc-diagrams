@@ -56,40 +56,13 @@ This draft is for testing the diagram options that come from the I-D tool.
                  '----+-----'
 ~~~
 
-# Mscgen
+# mermaid
 
-~~~mscgen
-# Fictional client-server protocol
-msc {
- arcgradient = 8;
-
- a [label="Client"],b [label="Server"];
-
- a=>b [label="data1"];
- a-xb [label="data2"];
- a=>b [label="data3"];
- a<=b [label="ack1, nack2"];
- a=>b [label="data2", arcskip="1"];
- |||;
- a<=b [label="ack3"];
- |||;
-}
-~~~
-
-# Plantuml
-
-~~~plantuml
-@startuml
-node node1
-node node2
-node node3
-node node4
-node node5
-node1 -- node2 : label1
-node1 .. node3 : label2
-node1 ~~ node4 : label3
-node1 == node5
-@enduml
+~~~mermaid
+flowchart
+  alice
+  bob
+  alice --> bob
 ~~~
 
 # Security Considerations
