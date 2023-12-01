@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "postinstall": "alias mmdc='echo'"
-  },
-  "dependencies": {
-
-  }
-}
