@@ -1,2 +1,2 @@
 #!/bin/bash
-apk add chromium -y
+apk add chromium 
