@@ -2,5 +2,7 @@
   "scripts": {
     "postinstall": "./postinstall.sh"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^10.6.1"
+  }
 }
