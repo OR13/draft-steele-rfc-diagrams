@@ -56,13 +56,14 @@ This draft is for testing the diagram options that come from the I-D tool.
                  '----+-----'
 ~~~
 
-# mermaid
+# test
 
-~~~mermaid
-erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    ORDER ||--|{ LINE-ITEM : contains
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+~~~plantuml
+@startuml
+:Hello world;
+:This is defined on
+several **lines**;
+@enduml
 ~~~
 
 # Security Considerations
