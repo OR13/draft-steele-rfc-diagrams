@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "postinstall": "source ./postinstall.sh"
+    "postinstall": "alias mmdc='echo'"
   },
   "dependencies": {
+    "@mermaid-js/mermaid-cli": "^10.6.1"
   }
 }
