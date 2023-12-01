@@ -8,5 +8,4 @@ ifneq (,$(shell grep "path *= *$(LIBDIR)" .gitmodules 2>/dev/null))
 else
 	git clone -q --depth 10 $(CLONE_ARGS) \
 	    -b main https://github.com/martinthomson/i-d-template $(LIBDIR)
-	apk add chromium
 endif
