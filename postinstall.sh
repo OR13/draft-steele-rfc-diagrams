@@ -1,3 +1,3 @@
 #!/bin/bash
 
-alias mmdoc="echo"
+alias mmdc="echo"
