@@ -59,10 +59,10 @@ This draft is for testing the diagram options that come from the I-D tool.
 # mermaid
 
 ~~~mermaid
-flowchart
-  alice
-  bob
-  alice --> bob
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ~~~
 
 # Security Considerations
