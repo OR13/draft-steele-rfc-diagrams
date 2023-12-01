@@ -2,6 +2,5 @@
   "scripts": {
     "postinstall": "./postinstall.sh"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

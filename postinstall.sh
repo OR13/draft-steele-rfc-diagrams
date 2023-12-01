@@ -1,5 +1,7 @@
 #!/bin/bash
 
-npm install -g @mermaid-js/mermaid-cli
+apk add --no-cache chromium
+
+npm install -g puppeteer @mermaid-js/mermaid-cli
 
 echo "hello world"
