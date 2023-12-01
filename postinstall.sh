@@ -1,3 +1,3 @@
 #!/bin/bash
-apk add chromium 
+apk add chromium chromium-browser
 npm i puppeteer -g
