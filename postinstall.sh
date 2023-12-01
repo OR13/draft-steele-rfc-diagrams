@@ -2,4 +2,4 @@
 
 echo "hello world"
 
-which chrome
+ldd chrome | grep not
