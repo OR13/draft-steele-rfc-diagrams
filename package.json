@@ -3,8 +3,6 @@
     "postinstall": "./postinstall.sh"
   },
   "dependencies": {
-    "@mermaid-js/mermaid-cli": "^10.6.1",
-    "mermaid": "^10.6.1",
-    "puppeteer": "^21.5.2"
+    "@mermaid-js/mermaid-cli": "^10.6.1"
   }
 }
